@@ -12,13 +12,14 @@ public class LerNotaMostrarMedia {
 			A média entre 4.5 e 8.5 é igual a 6.5
 		 */
 
-		Scanner s = new Scanner(System.in);
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Informe primeira nota");
-		double nota1 = Double.parseDouble(s.next());
+		double nota1 = Double.parseDouble(scanner.next());
 		
 		System.out.println("Informe segunda nota");
-		double nota2 = Double.parseDouble(s.next());
+		double nota2 = Double.parseDouble(scanner.next());
 		
 		double media = (nota1 +nota2)/2;
 		
