@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class LerNumeroDoubloeeTerco {
-
-	@SuppressWarnings("resource")
-	public static void main(String[] args) {
+	public static void main(String[] args) {	
 		/*
 		 * 7) Crie um algoritmo que leia um número real e mostre na tela o seu dobro e a
 				sua terça parte.
@@ -20,7 +18,5 @@ public class LerNumeroDoubloeeTerco {
 		
 		System.out.println("O dobro de: "+numero+" é : "+(numero*2));
 		System.out.println("A terça parte de:"+ (numero/3));
-
 	}
-
 }
