@@ -11,7 +11,6 @@ public class ConverteDinheiroCarteiraParaDolar {
 		double qtdDinheiroCarteira =  Double.parseDouble(JOptionPane.showInputDialog("Informe quanto você tem em sua carteira"));
 		
 		double valorConvertidoDolar = qtdDinheiroCarteira  /valorEmDolar;
-		
 		/**
 		 *Math.floor - Este metódo está arrendondando para baixo
 		 */
