@@ -12,7 +12,7 @@ public class ConverteDinheiroCarteiraParaDolar {
 		
 		double valorConvertidoDolar = qtdDinheiroCarteira  /valorEmDolar;
 		/**
-		 * Math.floor - Este metódo está arrendondando para baixo
+		 *Math.floor - Este metódo está arrendondando para baixo
 		 */
 		JOptionPane.showMessageDialog(null,"U$ "+ Math.floor(valorConvertidoDolar));
 	}
