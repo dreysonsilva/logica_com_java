@@ -1,3 +1,5 @@
+import java.text.DecimalFormat;
+
 import javax.swing.JOptionPane;
 
 public class CorretoraCarros {
@@ -16,5 +18,7 @@ public class CorretoraCarros {
 		qtdDiasAlugados = qtdDiasAlugados *90;
 		System.out.println("CORRETORA CARVANE");
 		System.out.println("Valor a pagar: R$ "+(qtdDiasAlugados+qtdKmPercorridoPorCarroAlugado));
+		String valorFormatado = new DecimalFormat("#,##0.00").format(qtdDiasAlugados+qtdKmPercorridoPorCarroAlugado);
+		System.out.println("Formatado Valor a pagar R$ "+valorFormatado);
 	}
 }
