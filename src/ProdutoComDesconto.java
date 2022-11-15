@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ProdutoComDesconto {
 
 	public static void main(String[] args) {
-		// Crie um programa que leia o preço de um produto, calcule e mostre o seu
+		// 12 - Crie um programa que leia o preço de um produto, calcule e mostre o seu
 		// PREÇO PROMOCIONAL, com 5% de desconto.
 		
 		Scanner scanner = new Scanner(System.in);
