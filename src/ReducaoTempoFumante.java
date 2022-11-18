@@ -18,10 +18,6 @@ public class ReducaoTempoFumante {
 		
 		System.err.println(qtdCigarrosPorDia);
 		System.out.println(qtdAnosTempoFumando);
-		
-
-		
-		
 
 	}
 
