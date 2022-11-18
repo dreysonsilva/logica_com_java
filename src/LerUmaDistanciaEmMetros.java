@@ -17,7 +17,7 @@ public class LerUmaDistanciaEmMetros {
 			  185720.0mm
 		 * */
 		
-		
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Digite uma distância em metros: ");

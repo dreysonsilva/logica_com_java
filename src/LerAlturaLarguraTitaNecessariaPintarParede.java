@@ -12,6 +12,7 @@ public class LerAlturaLarguraTitaNecessariaPintarParede {
 		
 		
 		//ENTRADA DE DADOS
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Altura?");

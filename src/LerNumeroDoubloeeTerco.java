@@ -12,6 +12,7 @@ public class LerNumeroDoubloeeTerco {
 		 * 
 		 * */
 		
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Digite um número: ");
 		double numero = Double.parseDouble(scan.next());

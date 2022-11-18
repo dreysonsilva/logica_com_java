@@ -8,6 +8,7 @@ public class ReducaoTempoFumante {
 		já fumou. Considere que um fumante perde 10 min de vida a cada cigarro. Calcule
 		quantos dias de vida um fumante perderá e exiba o total em dias.*/
 		
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Quantos cigarros fumado por dia?");
