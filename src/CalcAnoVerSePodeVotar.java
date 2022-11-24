@@ -20,6 +20,7 @@ public class CalcAnoVerSePodeVotar {
 		
 		
 		int ano = Integer.parseInt(JOptionPane.showInputDialog("Informe ano de nascimento"));
+		
 		int verificarSePodeVotar = Calendar.getInstance().get(Calendar.YEAR)-ano;
 		if(verificarSePodeVotar>16) {
 			System.out.println("Você já poderá votar, mas ainda não obrigatório.");

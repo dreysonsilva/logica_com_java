@@ -9,8 +9,7 @@ public class VelocidadeCarroMultado {
   	  o valor da multa, cobrando R$5 por cada Km acima da velocidade permitida.
   	  */
 		
-		Scanner scanner = new Scanner(System.in);
-		
+		Scanner scanner = new Scanner(System.in);		
 		
 		System.out.println("Informe qual sua velocidade?");
 		int velocidade = Integer.parseInt(scanner.nextLine());
