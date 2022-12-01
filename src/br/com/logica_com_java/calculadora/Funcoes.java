@@ -8,5 +8,5 @@ public interface Funcoes {
 	
 	public Double multiplicar();
 	
-	public Double divisao();
+	public String divisao();
 }
