@@ -16,21 +16,7 @@ public class RunCalculadora {
 		
 		int op = Integer.parseInt(JOptionPane.showInputDialog("Deseja fazer: \n1-Soma\n2Subtração\n3-Multiplicação\n4-Divisão"));	
 		
-		switch(op) {
-			case 1: System.out.println(c.soma());			
-			break;
-			
-			case 2: System.out.println(c.subtrair());
-			break;
-			
-			case 3: System.out.println(c.multiplicar());
-			break;
-			
-			case 4: System.out.println(c.divisao());
-			break;
-			
-			default: System.out.println("Opção incorreta!");
-		}	
+		c.opcao(op);
 	}
 
 }
