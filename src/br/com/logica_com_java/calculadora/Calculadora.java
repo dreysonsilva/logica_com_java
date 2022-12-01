@@ -46,7 +46,12 @@ public class Calculadora implements Funcoes {
 	}
 
 	@Override
-	public Double divisao() {
-		return this.numeroUm / this.numeroDois;
+	public String divisao() {
+		if(this.numeroDois== 0) {			
+			return "Não é possível dividir por zero";
+		}
+		return " "+this.numeroUm / this.numeroDois;
 	}
+
+
 }
