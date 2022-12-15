@@ -17,7 +17,7 @@ public class CompararDoisNumerosMaiorEntre {
 		}else if(n2>n1) {
 			System.out.println("O segundo valor é o maior");
 		}else {
-			System.out.println("Não existe valor maior, os dois são iguais");
+			System.out.println("Não existe valor maior, os dois são iguais"); 
 		}
 	}
 }
