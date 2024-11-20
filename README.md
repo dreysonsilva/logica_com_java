@@ -1,3 +1,3 @@
-#EXERCÕCIOS DE PROGRAMA«√O EM JAVA
+## EXERC√çCIOS DE PROGRAMA√á√ÉO EM JAVA
 
-<h3> Irei colocar todos os exercÌcios de programaÁ„o na linguagem java que irei fazer durante apredizagem.<h3>
+Irei colocar todos os exerc√≠cios de programa√ß√£o na linguagem java que irei fazer durante apredizagem.
